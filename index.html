@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dev Kumar - Senior software engineer focused on warehouse automation, backend services, React interfaces, relational databases, Linux systems, and cloud delivery." />
+  <title>Dev Kumar | Senior Software Engineer, Warehouse Automation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient-grid" aria-hidden="true"></div>
+  <div class="belt-light" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Dev Kumar home">
+      <span>DK</span>
+      <strong>Dev Kumar</strong>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#systems">Systems</a>
+      <a href="#diagram">Flow</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/devthedevil" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://leetcode.com/u/dev_kumar_dklv/" target="_blank" rel="noreferrer">LeetCode</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <img class="hero-art" src="assets/warehouse-automation-hero.png" alt="Dark automated warehouse with conveyors, AMRs, scanner portals, and operations dashboards" />
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Senior Software Engineer - Warehouse Automation</p>
+        <h1>Software that keeps automation moving with confidence.</h1>
+        <p class="hero-copy">
+          I build Go and Java services, React/TypeScript operations interfaces, and relational data systems for high-throughput automation platforms.
+        </p>
+        <div class="typed-row" aria-live="polite">
+          <span>Current focus</span>
+          <strong id="typed-focus">warehouse execution APIs</strong>
+        </div>
+        <div class="hero-actions">
+          <a class="primary-action" href="#projects">Explore Work</a>
+          <a class="ghost-action" href="mailto:devkumar.dklv@gmail.com">devkumar.dklv@gmail.com</a>
+        </div>
+      </div>
+      <div class="metric-strip reveal" aria-label="Engineering metrics">
+        <article>
+          <strong data-count="5">5</strong>
+          <span>+ years building software systems</span>
+        </article>
+        <article>
+          <strong data-count="60">60</strong>
+          <span>% workflow cycle-time reduction</span>
+        </article>
+        <article>
+          <strong data-count="70">70</strong>
+          <span>% analytics query improvement</span>
+        </article>
+        <article>
+          <strong data-count="99.99" data-decimals="2">99.99</strong>
+          <span>% uptime on Linux services</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="systems" class="section-shell systems-section">
+      <div class="section-kicker reveal">Engineering Shape</div>
+      <div class="split-heading reveal">
+        <h2>Warehouse software needs product judgment and systems discipline.</h2>
+        <p>
+          The work is practical: keep order flow visible, database paths fast, integrations predictable, and deployment pipelines calm enough for operational teams to trust.
+        </p>
+      </div>
+      <div class="system-grid">
+        <article class="system-card reveal">
+          <span>01</span>
+          <h3>Backend Orchestration</h3>
+          <p>Go, Java, Spring Boot, FastAPI, Node.js, REST, gRPC, Kafka, event-driven workflows, and clean service boundaries.</p>
+        </article>
+        <article class="system-card reveal">
+          <span>02</span>
+          <h3>Operator Interfaces</h3>
+          <p>React, TypeScript, Angular, Next.js, Redux, dashboards, workflow views, and fast UI paths for floor-level decisions.</p>
+        </article>
+        <article class="system-card reveal">
+          <span>03</span>
+          <h3>Data Reliability</h3>
+          <p>PostgreSQL, MySQL, Oracle PL/SQL, indexing, query plans, stored procedures, Redis, MongoDB, and reporting schemas.</p>
+        </article>
+        <article class="system-card reveal">
+          <span>04</span>
+          <h3>Production Delivery</h3>
+          <p>Linux, TCP/IP, AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, code reviews, mentoring, and CI/CD.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="diagram" class="section-shell diagram-section">
+      <div class="section-kicker reveal">Automation Flow</div>
+      <div class="split-heading reveal">
+        <h2>From order signal to reliable physical movement.</h2>
+        <p>The useful systems turn inventory, tasks, device events, and operator feedback into an observable loop instead of a black box.</p>
+      </div>
+      <div class="diagram-panel reveal" aria-label="Warehouse automation software flow diagram">
+        <svg viewBox="0 0 1120 520" role="img" aria-labelledby="diagram-title diagram-desc">
+          <title id="diagram-title">Warehouse automation software loop</title>
+          <desc id="diagram-desc">A diagram showing order intake, orchestration services, relational data, event bus, automation edge, operator dashboard, and telemetry feedback.</desc>
+          <defs>
+            <linearGradient id="flowGradient" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#36d9ff" />
+              <stop offset="50%" stop-color="#55f0b0" />
+              <stop offset="100%" stop-color="#f4c95d" />
+            </linearGradient>
+            <filter id="softGlow">
+              <feGaussianBlur stdDeviation="5" result="blur" />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+          </defs>
+          <rect width="1120" height="520" rx="28" class="diagram-bg" />
+          <g class="flow-lines" fill="none" stroke-linecap="round">
+            <path class="flow flow-a" d="M136 156 C252 94, 372 116, 458 186 S626 278, 750 188 S944 118, 1000 180" />
+            <path class="flow flow-b" d="M156 354 C292 292, 404 396, 538 342 S724 260, 880 344 S1010 412, 1024 314" />
+            <path class="flow flow-c" d="M222 168 C202 276, 276 354, 410 370 S600 414, 704 350 S852 216, 966 214" />
+          </g>
+          <g class="diagram-nodes">
+            <foreignObject x="62" y="88" width="245" height="112">
+              <div class="node-card">
+                <span>Order Intake</span>
+                <strong>REST + event APIs</strong>
+                <em>orders, waves, priorities</em>
+              </div>
+            </foreignObject>
+            <foreignObject x="408" y="70" width="250" height="112">
+              <div class="node-card">
+                <span>Orchestration</span>
+                <strong>Go and Java services</strong>
+                <em>task routing and workflow state</em>
+              </div>
+            </foreignObject>
+            <foreignObject x="786" y="92" width="255" height="112">
+              <div class="node-card">
+                <span>Automation Edge</span>
+                <strong>AMRs, conveyors, scans</strong>
+                <em>device events and retries</em>
+              </div>
+            </foreignObject>
+            <foreignObject x="112" y="320" width="250" height="112">
+              <div class="node-card">
+                <span>RDBMS Core</span>
+                <strong>PostgreSQL, MySQL, Oracle</strong>
+                <em>indexes, reports, integrity</em>
+              </div>
+            </foreignObject>
+            <foreignObject x="456" y="334" width="250" height="112">
+              <div class="node-card">
+                <span>Operator View</span>
+                <strong>React dashboards</strong>
+                <em>status, exceptions, decisions</em>
+              </div>
+            </foreignObject>
+            <foreignObject x="806" y="322" width="250" height="112">
+              <div class="node-card">
+                <span>Telemetry</span>
+                <strong>Linux + cloud delivery</strong>
+                <em>SLOs, logs, CI/CD</em>
+              </div>
+            </foreignObject>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section id="experience" class="section-shell experience-section">
+      <div class="section-kicker reveal">Experience</div>
+      <div class="split-heading reveal">
+        <h2>Production software across workflow automation, data systems, and full-stack delivery.</h2>
+        <p>All work-experience bullets from the resume are included below.</p>
+      </div>
+
+      <div class="experience-list">
+        <article class="experience-card reveal">
+          <div class="role-meta">
+            <h3>Sprouts AI</h3>
+            <p>Software Engineer</p>
+            <strong>Chicago, IL | Mar 2025 - Present</strong>
+          </div>
+          <ul>
+            <li>Built backend services in Python (FastAPI) and Go workers orchestrating AI hiring workflows, integrating OpenAI Responses API, Greenhouse ATS, and calendar APIs, cutting candidate-screening cycle time by 60%.</li>
+            <li>Designed React + TypeScript dashboards on PostgreSQL-backed REST endpoints, shipping interactive workflow views consumed by 200+ recruiters with sub-300ms p95 load times.</li>
+            <li>Optimized PostgreSQL schemas and SQL queries by introducing composite indexes, query rewrites, and async batching, reducing slowest analytics queries by 70%.</li>
+            <li>Led code reviews and mentored 2 junior engineers on Go and TypeScript patterns while standardizing GitHub Actions CI/CD pipelines, tripling deployment frequency.</li>
+          </ul>
+        </article>
+
+        <article class="experience-card reveal">
+          <div class="role-meta">
+            <h3>Resilience Inc</h3>
+            <p>Software Engineer</p>
+            <strong>Chicago, IL | Aug 2023 - Mar 2025</strong>
+          </div>
+          <ul>
+            <li>Rebuilt mylearningtools.org on the MERN stack with a React/TypeScript front end and Node.js/Express backend on MySQL, cutting page-load time by 30% and lifting daily active users by 25%.</li>
+            <li>Architected Java Spring Boot microservices behind the Selena app, exposing REST APIs consumed by React Native clients and improving student engagement by 40% across 10k+ learners.</li>
+            <li>Tuned PostgreSQL and MySQL schemas, indexes, and stored procedures supporting the platform, slashing slow-query incidents by 80% and meeting a 99.9% uptime SLO on Linux EC2 fleets.</li>
+            <li>Conducted code reviews and led pair-programming sessions for 4 engineers across frontend/backend, accelerating sprint velocity by 25% in an Agile/Scrum environment.</li>
+          </ul>
+        </article>
+
+        <article class="experience-card reveal">
+          <div class="role-meta">
+            <h3>Tata Steel</h3>
+            <p>Software Engineer</p>
+            <strong>Apr 2018 - Aug 2023</strong>
+          </div>
+          <ul>
+            <li>Digitized enterprise Learning &amp; Development systems by building MEAN-stack web apps and Java microservices backed by Oracle (PL/SQL) and MySQL, automating training workflows and cutting manual effort by 60%.</li>
+            <li>Architected cloud-native Java microservices on Linux with Docker/Kubernetes, achieving 99.99% uptime and improving API response times by 40% under 10k+ daily requests.</li>
+            <li>Designed and optimized Oracle and MySQL relational schemas powering enterprise reporting, reducing average query latency by 50% via indexing strategy and stored-procedure refactors.</li>
+            <li>Mentored 6 junior engineers on Java microservice patterns and code-review practices while driving Agile SDLC adoption, Git workflows, and automated CI/CD pipelines across cross-functional teams.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell build-section">
+      <div class="section-kicker reveal">Build Habit</div>
+      <h2 class="wide-heading reveal">I enjoy the point where software becomes dependable motion.</h2>
+      <div class="habit-grid">
+        <article class="habit-card reveal">
+          <h3>Model The Real Floor</h3>
+          <p>Represent orders, inventory, retries, device states, and exceptions clearly enough that the system can explain what happened.</p>
+        </article>
+        <article class="habit-card reveal">
+          <h3>Keep Data Fast</h3>
+          <p>Use schema design, indexes, query rewrites, and batching to keep dashboards and automation decisions moving under load.</p>
+        </article>
+        <article class="habit-card reveal">
+          <h3>Teach Through Code</h3>
+          <p>Leave patterns, tests, reviews, and pipeline checks that make teams faster without making production more fragile.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell projects-section">
+      <div class="section-kicker reveal">Selected Work</div>
+      <div class="split-heading reveal">
+        <h2>Backend, full-stack, AI, and systems projects with source links.</h2>
+        <p>Filter by the engineering surface you want to inspect.</p>
+      </div>
+      <div class="filter-bar reveal" role="group" aria-label="Project filters">
+        <button class="filter-button active" type="button" data-filter="all">All</button>
+        <button class="filter-button" type="button" data-filter="backend">Backend</button>
+        <button class="filter-button" type="button" data-filter="fullstack">Full Stack</button>
+        <button class="filter-button" type="button" data-filter="ai">AI</button>
+        <button class="filter-button" type="button" data-filter="systems">Systems</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal" data-tags="backend fullstack">
+          <span>Go + PostgreSQL</span>
+          <h3>HireLoop</h3>
+          <p>Recruiting backend in Go with PostgreSQL, REST APIs, and goroutine-based concurrency, demonstrating clean architecture and low-latency service design.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/hireloop" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="fullstack ai">
+          <span>Trading Platform</span>
+          <h3>TradeSentinel</h3>
+          <p>Full-stack trading insights app with React/TypeScript, backend services, PostgreSQL persistence, and deployed agentic AI analysis.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/tradesentinel" target="_blank" rel="noreferrer">Source</a>
+            <a href="https://tradesentinel.vercel.app/" target="_blank" rel="noreferrer">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="backend systems">
+          <span>Kafka Pipeline</span>
+          <h3>Real-time Stock Market Analysis Pipeline</h3>
+          <p>Kafka-based streaming pipeline ingesting high-volume ticks on Linux, processing consumer groups, and persisting analytics to PostgreSQL.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/Realtime-Stock-Market-Analysis" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="ai fullstack">
+          <span>Agentic RAG</span>
+          <h3>AskMyStore</h3>
+          <p>RAG assistant with retrieval, tool use, grounded answers, and a deployed product surface for question-answering workflows.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/AskMyStore" target="_blank" rel="noreferrer">Source</a>
+            <a href="https://askmystore.vercel.app/" target="_blank" rel="noreferrer">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="ai">
+          <span>LLM Tooling</span>
+          <h3>LangChain Chat with Search</h3>
+          <p>LangChain agent with search-enabled reasoning and response-quality patterns for retrieval-adjacent workflows.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/LangChain-Chat-with-Search" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="systems">
+          <span>Low-Latency C++</span>
+          <h3>CME MDP 3.0 Multicast Feed Handler</h3>
+          <p>Packet processing, gap recovery, tick-to-book latency measurement, and Linux-focused market data feed handling.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/CME-Multicast-Market-Data-Feed-Handler-C-" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="systems">
+          <span>Linux Kernel</span>
+          <h3>Character Device Driver</h3>
+          <p>Linux character device driver with ioctl interface, semaphores, kernel timers, and /proc debugging surface.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/Character-Device-Driver" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="systems">
+          <span>Operating Systems</span>
+          <h3>EXPOS</h3>
+          <p>Experimental operating system implementing scheduling, memory management, syscalls, interrupts, and semaphore primitives.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/EXPOS" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="systems">
+          <span>RTL Design</span>
+          <h3>16-Bit RISC Processor</h3>
+          <p>Verilog CPU design covering instruction set, datapath, control unit, and computer-architecture fundamentals.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/Hardware-lab" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="fullstack">
+          <span>Application</span>
+          <h3>STRANGERS</h3>
+          <p>Full-stack application work demonstrating interface flow, product construction, and practical implementation decisions.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/Strangers" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="ai">
+          <span>IEEE Research</span>
+          <h3>Movie Recommendation Systems Study</h3>
+          <p>Recommendation-system research using feature engineering and improved error functions across collaborative and content-based models.</p>
+          <div class="project-links">
+            <a href="https://ieeexplore.ieee.org/document/10094480" target="_blank" rel="noreferrer">Paper</a>
+            <a href="https://github.com/devthedevil/Comparative-Study-of-Movie-Recommendation-System/blob/main/Netflix_Movie.ipynb" target="_blank" rel="noreferrer">Source</a>
+            <a href="https://drive.google.com/file/d/1rayr6Cht6quyLUJOXWOAcBi_rxQp2Ol0/view" target="_blank" rel="noreferrer">Certificate</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-tags="fullstack">
+          <span>iOS</span>
+          <h3>Pitch Perfect</h3>
+          <p>iOS audio app project demonstrating mobile app fundamentals, media handling, and polished product behavior.</p>
+          <div class="project-links">
+            <a href="https://github.com/devthedevil/Pitch_Perfect" target="_blank" rel="noreferrer">Source</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell credentials-section">
+      <div class="section-kicker reveal">Credentials</div>
+      <h2 class="wide-heading reveal">Computer science foundations with practical systems delivery.</h2>
+      <div class="credential-grid">
+        <article class="credential-card reveal">
+          <span>Graduate</span>
+          <h3>Illinois Institute of Technology</h3>
+          <p>M.S., Computer Science</p>
+        </article>
+        <article class="credential-card reveal">
+          <span>Undergraduate</span>
+          <h3>National Institute of Technology Calicut</h3>
+          <p>B.Tech, Computer Science</p>
+        </article>
+        <article class="credential-card reveal">
+          <span>Publication</span>
+          <h3>IEEE</h3>
+          <p>A Comparative Study of Movie Recommendation Systems.</p>
+        </article>
+        <article class="credential-card reveal">
+          <span>Profiles</span>
+          <h3>Code + Algorithms</h3>
+          <p><a href="https://github.com/devthedevil" target="_blank" rel="noreferrer">GitHub</a> and <a href="https://leetcode.com/u/dev_kumar_dklv/" target="_blank" rel="noreferrer">LeetCode</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
